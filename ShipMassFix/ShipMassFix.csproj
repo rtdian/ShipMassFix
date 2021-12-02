@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\Sandbox.Common.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="Sandbox.Game, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="Sandbox.Graphics, Version=0.1.1.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.Input.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
+        <Private>False</Private>  
+      </Reference>
+      <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+      <Reference Include="VRage.Network, Version=1.0.53.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\3rd\SpaceEngineers\Bin64\VRage.Network.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Lib.Harmony" Version="2.1.1" />
+    </ItemGroup>
+
+</Project>
